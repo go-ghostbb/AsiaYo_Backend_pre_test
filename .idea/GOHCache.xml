@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="Address">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/model/orders.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CreateOrder">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/model/orders.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CreateOrderReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/model/orders.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CreateOrderRes">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/model/orders.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Ctx">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/utils/response/response.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Response">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/utils/response/response.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="address">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/model/orders.go" />
+              <option value="file://$PROJECT_DIR$/model/orders.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="args">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/service/orders_test.go" />
+              <option value="file://$PROJECT_DIR$/internal/utils/stringx/stringx_test.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="postOrdersReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/model/orders.go" />
+              <option value="file://$PROJECT_DIR$/model/orders.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/internal/cmd/cmd.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723535429343" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/cmd/cmd_main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723540672795" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/cmd/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723535443324" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/controller/order.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723539219568" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/controller/orders.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723541993278" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/model/orders.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723545513670" />
+              <option name="schema">
+                <list>
+                  <option value="CreateOrder" />
+                  <option value="Address" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/router/order.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723536231953" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/service/orders.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723545562914" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/service/orders_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723545562917" />
+              <option name="schema">
+                <list>
+                  <option value="args" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/utils/response/response.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723541966263" />
+              <option name="schema">
+                <list>
+                  <option value="Ctx" />
+                  <option value="Response" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/utils/stringx/stringx.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723538067027" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/utils/stringx/stringx_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723538067032" />
+              <option name="schema">
+                <list>
+                  <option value="args" />
+                  <option value="args" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723535883347" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/model/orders.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1723532601292" />
+              <option name="schema">
+                <list>
+                  <option value="postOrdersReq" />
+                  <option value="address" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="address" value="Address" />
+        <entry key="args" value="args" />
+        <entry key="create_order" value="CreateOrder" />
+        <entry key="create_order_req" value="CreateOrderReq" />
+        <entry key="create_order_res" value="CreateOrderRes" />
+        <entry key="ctx" value="Ctx" />
+        <entry key="post_orders_req" value="postOrdersReq" />
+        <entry key="response" value="Response" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1723530323101" />
+  </component>
+</project>
