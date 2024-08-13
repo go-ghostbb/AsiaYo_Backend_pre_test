@@ -38,6 +38,11 @@ func (c *CreateOrder) Validate() error {
 		return ErrNameIsNotCapitalized
 	}
 
+	// 判斷貨幣格式是否為TWD或USD
+	if !(c.Currency == "TWD" || c.Currency == "USD") {
+		return ErrCurrencyFormatWrong
+	}
+
 	// string convert to int(price)
 	var (
 		price int
@@ -45,24 +50,20 @@ func (c *CreateOrder) Validate() error {
 	)
 	price, err = strconv.Atoi(c.Price)
 
+	// 如果貨幣格式為USD, 將USD改為TWD
+	if c.Currency == "USD" {
+		// 乘上匯率(*31)
+		price *= 31
+		c.Price = strconv.Itoa(price)
+		// 將USD改為TWD
+		c.Currency = "TWD"
+	}
+
 	// 訂單金額超過2000
 	if err != nil {
 		return err
 	} else if price > 2000 {
 		return ErrPriceIsOver2000
-	}
-
-	// 判斷貨幣格式是否為TWD或USD
-	if !(c.Currency == "TWD" || c.Currency == "USD") {
-		return ErrCurrencyFormatWrong
-	}
-
-	// 如果貨幣格式為USD, 將USD改為TWD
-	if c.Currency == "USD" {
-		// 乘上匯率(*31)
-		c.Price = strconv.Itoa(price * 31)
-		// 將USD改為TWD
-		c.Currency = "TWD"
 	}
 
 	return nil
